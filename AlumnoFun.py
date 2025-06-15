@@ -19,6 +19,7 @@ def existe_alumno_id(id_alumno): #valida si existe alumno con ese id
                 return False
             continue
 
+
 def cargar_alumno(): #Permite la carga manual de los datos para un nuevo alumno, tambien los valida con import Validar
     vuelta = []
     nombre = Validar.input_nombre()
